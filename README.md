@@ -31,17 +31,14 @@ Follow these steps to run the project locally:
    git clone [https://github.com/mohanadalmali/ShoppingList-React.git](https://github.com/mohanadalmali/ShoppingList-React.git)
 Install Dependencies:
 
-Bash
 npm install
 Launch Development Server:
 
-Bash
 npm run dev
 Open in Browser:
 Navigate to http://localhost:5173
 
 📂 Project Structure
-Plaintext
 src/
  ├── components/     # Reusable UI components (Item, List, Input)
  ├── assets/         # Images, icons, and global styles
