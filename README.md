@@ -1,50 +1,82 @@
-Markdown
 # 🛒 Shopping To-Do List
 
-A modern, high-performance Shopping List application developed using **React 18**, **Vite**, and **Bootstrap 5**. This project focuses on a seamless user experience, responsive design, and efficient state management.
+A modern and high-performance **Shopping List application** built with **React 18**, **Vite**, and **Bootstrap 5**. The project focuses on a clean user interface, responsive design, and efficient state management to provide a smooth user experience.
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+---
 
-## ✨ Key Features
+## ✨ Features
 
-- **Dynamic Item Management:** Add, delete, and toggle shopping items instantly.
-- **Persistence:** Items are saved locally using `localStorage` to ensure data remains after page refreshes.
-- **Fully Responsive:** Optimized for mobile, tablet, and desktop using Bootstrap's grid system.
-- **Modern UI/UX:** Clean, intuitive interface with a focus on usability.
-- **Fast HMR:** Developed with Vite for near-instant browser updates during coding.
+* **Dynamic Item Management** – Add, delete, and toggle shopping items instantly.
+* **Local Storage Persistence** – Items are saved using `localStorage`, ensuring data remains even after refreshing the page.
+* **Responsive Design** – Optimized for mobile, tablet, and desktop using Bootstrap's grid system.
+* **Modern UI/UX** – Clean and intuitive interface with a focus on usability.
+* **Fast Development** – Powered by Vite with Hot Module Replacement (HMR).
 
-## 🛠️ Technical Stack
+---
 
-* **Frontend Library:** React.js (Functional Components & Hooks)
-* **Build Tool:** Vite
-* **Styling:** HTML5, CSS3 & Bootstrap 5
-* **Version Control:** Git & GitHub
+## 🛠️ Tech Stack
+
+* **React.js** – Frontend library using Functional Components and Hooks
+* **Vite** – Fast development server and build tool
+* **Bootstrap 5** – Responsive UI framework
+* **HTML5 / CSS3** – Core web technologies
+* **Git & GitHub** – Version control and collaboration
+
+---
 
 ## 🚀 Getting Started
 
-Follow these steps to run the project locally:
+Follow these steps to run the project locally.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/mohanadalmali/ShoppingList-React.git](https://github.com/mohanadalmali/ShoppingList-React.git)
-Install Dependencies:
+### 1. Clone the repository
 
+```bash
+git clone https://github.com/mohanadalmali/ShoppingList.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd ShoppingList
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-Launch Development Server:
+```
 
+### 4. Start the development server
+
+```bash
 npm run dev
-Open in Browser:
-Navigate to http://localhost:5173
+```
 
-📂 Project Structure
+### 5. Open in your browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```
 src/
- ├── components/     # Reusable UI components (Item, List, Input)
- ├── assets/         # Images, icons, and global styles
- ├── App.jsx         # Main application logic and state management
- └── main.jsx        # Application entry point
-📄 License
+├── components/     # Reusable UI components (Item, List, Input)
+├── assets/         # Images, icons, and global styles
+├── App.jsx         # Main application logic and state management
+└── main.jsx        # Application entry point
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+```
 MIT License
 
 Copyright (c) 2026 Mohanad Ali
@@ -53,18 +85,17 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software.
+```
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+---
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 👨‍💻 Author
 
-Developed by Mohanad Alm Ali Junior Software Engineering Student | Istanbul
+**Mohanad Alm Ali**
+Junior Software Engineering Student
+Istanbul, Türkiye
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
