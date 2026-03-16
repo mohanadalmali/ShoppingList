@@ -1,12 +1,5 @@
 # 🛒 Shopping To-Do List
 
-![GitHub stars](https://img.shields.io/github/stars/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub repo size](https://img.shields.io/github/repo-size/mohanadalmali/ShoppingList-React?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/mohanadalmali/ShoppingList-React?style=for-the-badge)
 A modern and high-performance **Shopping List application** built with **React 18**, **Vite**, and **Bootstrap 5**. The project focuses on a clean user interface, responsive design, and efficient state management to provide a smooth user experience.
 
 ---
