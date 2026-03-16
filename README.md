@@ -48,3 +48,5 @@ src/
  ├── assets/         # Images, icons, and global styles
  ├── App.jsx         # Main application logic
  └── main.jsx        # Application entry point
+
+ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
