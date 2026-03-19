@@ -17,11 +17,22 @@ const urunler = [
 ];
 
 export default function App() {
-  const [items,setItems] = useState(urunler);
+  const [items, setItems] = useState(urunler);
 
   function handleAddItem(item) {
-
     setItems((items) => [...items, item]);
+  }
+
+  function handleDeleteItem(id) {
+    setItems((items) => items.filter((i) => i.id !== id));
+  }
+
+  function handleUpdateItem(id) {
+    setItems((items) =>
+      items.map((item) =>
+        item.id === id ? { ...item, completed: !item.completed } : item,
+      ),
+    );
   }
 
   return (
@@ -29,7 +40,11 @@ export default function App() {
       <Header />
       <AddItemForm onAddItem={handleAddItem} />
       <FilterButtons />
-      <ListItems items={items} />
+      <ListItems
+        items={items}
+        onDeleteItem={handleDeleteItem}
+        onUpdateItem={handleUpdateItem}
+      />
       <ClearButton />
     </div>
   );
