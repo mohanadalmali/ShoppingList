@@ -1,12 +1,101 @@
-# React + Vite
+# 🛒 Shopping To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and high-performance **Shopping List application** built with **React 18**, **Vite**, and **Bootstrap 5**. The project focuses on a clean user interface, responsive design, and efficient state management to provide a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+* **Dynamic Item Management** – Add, delete, and toggle shopping items instantly.
+* **Local Storage Persistence** – Items are saved using `localStorage`, ensuring data remains even after refreshing the page.
+* **Responsive Design** – Optimized for mobile, tablet, and desktop using Bootstrap's grid system.
+* **Modern UI/UX** – Clean and intuitive interface with a focus on usability.
+* **Fast Development** – Powered by Vite with Hot Module Replacement (HMR).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React.js** – Frontend library using Functional Components and Hooks
+* **Vite** – Fast development server and build tool
+* **Bootstrap 5** – Responsive UI framework
+* **HTML5 / CSS3** – Core web technologies
+* **Git & GitHub** – Version control and collaboration
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/mohanadalmali/ShoppingList.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd ShoppingList
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+### 5. Open in your browser
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/     # Reusable UI components (Item, List, Input)
+├── assets/         # Images, icons, and global styles
+├── App.jsx         # Main application logic and state management
+└── main.jsx        # Application entry point
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+```
+MIT License
+
+Copyright (c) 2026 Mohanad Ali
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+```
+
+---
+
+## 👨‍💻 Author
+
+**Mohanad Alm Ali**
+Junior Software Engineering Student
+Istanbul, Türkiye
+
+---
+
+⭐ If you like this project, consider giving it a star on GitHub!
